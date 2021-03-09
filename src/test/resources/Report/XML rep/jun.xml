@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.013592">
+<testcase classname="verify Adactin page" name="User is in Scenario three" time="0.013592">
+<system-out><![CDATA[Given User enters background line one.......................................passed
+When User enters background line two........................................passed
+Given User enters Scenario three line one...................................passed
+When User enters Scenario three line two....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

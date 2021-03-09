@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open in Background",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 280400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters background line one",
+            "match": {
+              "location": "StepDef.user_enters_background_line_one()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 109600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters background line two",
+            "match": {
+              "location": "StepDef.user_enters_background_line_two()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7319500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeone()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User is in Scenario three",
+        "description": "",
+        "id": "verify-adactin-page;user-is-in-scenario-three",
+        "after": [
+          {
+            "result": {
+              "duration": 113100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterone()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 223300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters Scenario three line one",
+            "match": {
+              "location": "StepDef.user_enters_Scenario_three_line_one()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters Scenario three line two",
+            "match": {
+              "location": "StepDef.user_enters_Scenario_three_line_two()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@reg"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "verify Adactin page",
+    "description": "",
+    "id": "verify-adactin-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/adactin.feature",
+    "tags": []
+  }
+]
